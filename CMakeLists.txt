@@ -18,6 +18,8 @@ add_executable(CView
   capp.cpp
   capp.h
   capp.ui
+  cview.cpp
+  cview.h
 )
 
 target_link_libraries(CView PRIVATE Qt5::Widgets)
